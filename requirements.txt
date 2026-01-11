@@ -1,0 +1,11 @@
+langgraph
+groq
+streamlit
+python-dotenv
+sentence-transformers
+numpy
+pydantic
+pytest
+pypdf
+chromadb
+faiss-cpu
