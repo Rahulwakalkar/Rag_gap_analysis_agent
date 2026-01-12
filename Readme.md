@@ -1,4 +1,4 @@
-# AI Policy Gap Analysis Agent
+#  Policy Gap Analysis Agent
 
 A production-ready AI-powered regulatory gap analysis system built using LangGraph, Groq LLM, Streamlit, and FAISS-backed vector search.
 
@@ -44,6 +44,7 @@ Final Report Generation (JSON)
 ########################################################
 Gap_analysis_agent/
 ├── app/
+
 │ ├── agent/
 │ │ ├── graph.py # LangGraph workflow
 │ │ ├── state.py # Typed agent state
@@ -53,12 +54,14 @@ Gap_analysis_agent/
 │ │ │ ├── router_node.py # Gap detection & severity
 │ │ │ └── fallback_node.py # Final report
 │ │
+| |
 │ ├── services/
 │ │ ├── llm.py # Groq LLM wrapper
 │ │ ├── embeddings.py # Embedding service
 │ │ ├── document_loader.py # PDF parsing & chunking
 │ │ └── vectorstore.py # FAISS integration
 │ │
+| |
 │ ├── core/
 │ │ ├── config.py # Environment config
 │ │ └── logging.py # Structured logging
