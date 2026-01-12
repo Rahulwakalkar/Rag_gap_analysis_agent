@@ -30,7 +30,7 @@ Document Loader & Chunker
 Regulatory Requirement Extraction (LLM)
 │
 ▼
-Vector Store (Chroma + FAISS)
+Vector Store (FAISS)
 │
 ▼
 Policy Mapping (Semantic Search)
@@ -57,7 +57,7 @@ Gap_analysis_agent/
 │ │ ├── llm.py # Groq LLM wrapper
 │ │ ├── embeddings.py # Embedding service
 │ │ ├── document_loader.py # PDF parsing & chunking
-│ │ └── vectorstore.py # Chroma / FAISS integration
+│ │ └── vectorstore.py # FAISS integration
 │ │
 │ ├── core/
 │ │ ├── config.py # Environment config
@@ -66,9 +66,8 @@ Gap_analysis_agent/
 ├── streamlit_app.py # Streamlit entrypoint
 ├── tests/ # Unit & integration tests
 ├── scripts/ # Utility scripts
-├── .env.example # Environment variables
+├── .env # Environment variables
 ├── requirements.txt
 ├── README.md
-└── Makefile
 
 streamlit run streamlit_app.py
